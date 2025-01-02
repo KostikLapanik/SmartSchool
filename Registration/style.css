@@ -1,0 +1,51 @@
+@import url("https://fonts.cdnfonts.com/css/vollkorn");
+@import url("https://fonts.cdnfonts.com/css/montserrat-alternates");
+@import url("https://fonts.cdnfonts.com/css/playfair-display-sc");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-wrapper {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.register-form {
+  text-align: center;
+  font-family: "Playfair Display SC", sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Vollkorn", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-content: center;
+  min-height: 386px;
+  width: 448px;
+}
+.register-form__content {
+  color: #627187;
+  margin-bottom: 10px;
+}
+.register-form__content h1 {
+  color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-image: linear-gradient(to right, #b1d4ff, 30%, #115bf9);
+  margin-bottom: 5px;
+}
+.register-form__split {
+  text-align: center;
+  border: none;
+  border-top: 2px double #C7D0DB;
+  overflow: visible;
+  color: #64748b;
+}
+.register-form__split::after {
+  content: "OR";
+  position: relative;
+  top: -11px;
+  background-color: white;
+  padding: 0 6px;
+}/*# sourceMappingURL=style.css.map */

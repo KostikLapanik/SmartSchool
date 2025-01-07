@@ -7,7 +7,7 @@
 .form {
   max-width: 448px;
   margin: 50px auto;
-  min-height: 481px;
+  min-height: 514px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -100,4 +100,10 @@
 }
 .form .register-form__guest-button:hover {
   background-color: rgba(14, 165, 233, 0.1);
+}
+
+@media (max-width: 465px) {
+  .form {
+    max-width: 345px;
+  }
 }/*# sourceMappingURL=style.css.map */

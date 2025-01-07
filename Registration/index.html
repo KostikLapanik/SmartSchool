@@ -18,14 +18,15 @@
             <p>Enter your invite code or continue as guest</p>
         </div>
         <form action="" method="" class="register-form">
-            <label for="invite-code" class="register-form__label">Invite Code</label>
-            <input type="password" id="invite-code" name="invite_code" placeholder="Enter your invite code"
-                class="register-form__input" required />
-            <button class="register-form__code-button">Register with code</button>
+            <label for="invite-code" class="register-form__label" name="invite-code-label">Invite Code</label>
+            <input type="text" id="invite-code" name="invite-code-input" placeholder="Enter your invite code"
+                class="register-form__input" inputmode="decimal"/>
+            <button class="register-form__code-button" name="code-button" type="submit" disabled>Register with code</button>
 
             <hr class="register-form__split">
 
-            <button class="register-form__guest-button">Continue as guest</button>
+            <button class="register-form__guest-button" type="submit">Continue as guest</button> 
+            <!-- сделать так чтобы при нажатии на эту кнопку отправлялась пустая форма  -->
         </form>
         <div class="form__link">
             <span>Already have an account?</span>
